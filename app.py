@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-import cv2
+import cv2 as cv
 from sklearn.cluster import KMeans
 import tensorflow as tf
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
